@@ -20,7 +20,7 @@ pipeline {
 
         stage('COMPILE') {
             steps {
-                sh "mvn clean compile -DskipTests=true"
+                bat "mvn clean compile -DskipTests=true"
             }
         }
         
